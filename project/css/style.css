@@ -1,0 +1,324 @@
+body 
+{
+    margin: 0px;
+    font-family: verdana;
+    font-size: 12px;
+}
+
+
+.container 
+{
+    width:1024px;
+    margin:0 auto;
+}
+
+.header
+{
+    padding: 0px;
+    margin: 0px;
+    height: 70px;
+    background-color:#fff;
+    text-align: center;
+    vertical-align: middle;
+}
+.search{
+    display:inline; 
+    float:right;
+    width: 50%;
+    margin-right: 10px;
+    margin-top: 0px;
+}
+.search input[type=text]{
+    margin :0px;
+    background:#d6d6d6; 
+    border: 2px solid #b55e62;
+     
+}
+.search input [type=submit]{
+    background: #ffab06;
+    border: 2px outset #b55e62; 
+    color: #ffffff; font-weight: bold;'
+
+}
+.resim{
+    width: 100%;
+    margin-top:40px;
+}
+.resim img{
+    width: 100%;
+
+}
+
+
+.content{
+
+    background-color: #aCf;
+
+}
+
+
+.orta{
+    height:180 ;
+    width :100%;
+    background: #FFFFFF;
+    float: left;
+}
+
+.footer {
+    float: left;
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+}
+
+.footer .bolum {
+    display: inline-block;
+    vertical-align: top;
+    width: 22%;
+    padding: 10px;
+}
+
+.footer .altbolum {
+    padding: 10px;
+    background-color: black;
+    color: #fff;
+}
+
+.altbolum p {
+    color: #fff;
+    display: inline-block;
+    width: 45%;
+}
+
+.bolum a{
+    text-decoration-line: none;
+    color: gray;
+}
+.bolum li{
+    border-bottom-style: solid;
+    border-bottom-width:2px;
+    border-bottom-color: gray;
+    opacity: 0.5px;
+    margin:5 0 5 0 ;
+}
+
+.bolum h1{
+    color:purple;
+}
+.bolum p{
+    margin-top:10;
+}
+
+.bolum h2{
+    margin-top: 5;
+    color:#669999;
+}
+
+
+.menu {
+
+    margin: 0 0 5 0;
+
+    padding: 0px;
+
+    list-style-type: none;
+
+    float:right;
+
+}
+
+ul.menu li {
+
+    float: right;
+
+    width: 150px;
+    margin: 15 0 5 0 ;
+
+
+}
+
+ul.menu li a {
+
+    font-family: "Times New Roman", Times, serif;
+
+    font-size: 15px;
+
+    color:black;
+
+    text-decoration: none;
+
+    background-color:#fff;
+
+    padding-top: 2px;
+
+    padding-right: 2px;
+    
+
+
+}
+
+ul.menu li a:hover {
+
+    font-weight: bold;
+
+}
+  body {
+    background-color: #c2b5b5;
+}
+p {
+    color: black;
+}
+.content p{
+    
+    marjin-left : 20px;
+    marjin-top :50px;
+    text-align: center;
+    
+}
+.content img {
+
+    position: relative;
+    height: 250px;
+    width:100%;
+    margin: 0 0 0 0;
+   
+}
+    
+.birinci {
+    height: 33%;
+    width: 33%;
+    float:left;
+    top:30 ;
+    left: 15;
+} 
+.ikinci{
+    height:33%;
+    width: 33%;
+    float:left;
+    top: 30;
+}
+.ücüncü{
+    height: 33%;
+    width: 33%;
+    float:left;
+    top: :30;
+}
+
+.leftdiv {
+     
+    float:left;
+    top:30 ;
+    left: 30;
+}
+.leftdiv img {
+    height:70px;
+    width: 70px; 
+    float: left; 
+    margin: 30 30 0 15;  
+}
+.rightdiv{
+
+    float: right;
+    width: 118px;
+    margin: 40 32 0 0;
+    right:15;
+}
+
+
+.button-left{
+
+    position: absolute;
+    float: left;
+    margin: 130 0 0 15;
+    z-index: 1;
+
+
+}
+.button-right{
+
+    position: absolute;
+    float: right;
+    margin: 130 15 0 870;
+    z-index: 1;
+
+
+}
+
+.kutu {
+    width:100%;
+    background-color: #aCf;
+    float: left;
+    margin:0 0 0 0;
+}
+ 
+.kutuBir {
+    width: 30%;
+    height: 350px;
+    background: #FFFFFF;
+    float: left;
+    margin:10 15 10 15;
+}
+.kutuBir img{
+    height :150px;
+    width:250px;
+    padding: 5px;
+
+}
+.kutuBir h1{
+
+    text-align: center;
+    color: red;    
+}
+.kutuBir p{
+
+    text-align: center;
+    color: black;    
+}
+.kutuIki {
+    width: 30%;
+    height: 350px;
+    background: #FFFFFF;
+    float: left;
+    margin: 10 15 10 15;
+}
+.kutuIki img{
+    height :150px;
+    width:250px;
+    padding: 5px;
+}
+.kutuIki h1{
+
+    text-align: center;
+    color: red;
+    
+}
+p{
+
+    text-align: center;
+    color: black;    
+}
+.kutuUc {
+    width: 30%;
+    height: 350px;
+    background: #FFFFFF;
+    float: left;
+    margin: 10 15 10 15;
+}
+.kutuUc img{
+    height :150px;
+    width:250px;
+    padding: 5px;
+
+}
+.kutuUc h1{
+
+    text-align: center;
+    color: red;
+    
+}
+p{
+
+    text-align: center;
+    color: black;    
+}
+
