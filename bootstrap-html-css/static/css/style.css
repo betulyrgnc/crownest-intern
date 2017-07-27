@@ -1,0 +1,453 @@
+@import url('https://fonts.googleapis.com/css?family=IM+Fell+Double+Pica+SC');
+* {box-sizing: border-box;}
+
+@import url('https://fonts.googleapis.com/css?family=Itim');
+@import url('https://fonts.googleapis.com/css?family=Alegreya');
+.clearfix {
+	overflow: auto;
+	zoom: 1;
+}
+
+body{
+	background-color: #DEDEDE;
+    
+}
+header{
+    margin: 0 auto;
+    height: 300px;
+	background-color:#2d3e45;
+ 
+}
+.top-bar{
+	width: 100%;
+    background-color: #1a292c;   
+    padding:5px;
+}
+.container{
+    background-color:transparent;
+
+
+}
+.top-bar .col-md-6 p{
+    color: gray;
+    font-size: 14px;
+}
+.search{
+    float: right;
+	position: relative;
+
+}
+
+.col-md-6 .search input{
+    margin :0px;
+    background: #2d3e45; 
+    border-radius: 7px;
+    display: inline-block;
+    border-color: #2d3e45;
+    color: #fff;
+
+}
+.search input[type=text]::-webkit-input-placeholder {
+    color: LightGray;
+}
+.search button{
+    width: 25px;
+    height:25px;
+    position: absolute; 
+    top: 0px;
+    right: 1px;
+    background:url(search.png) no-repeat center center;
+    background-size: cover;
+    background-color: transparent;
+    border: none;
+}
+
+.search span{
+    owerflow:auto;
+    color: gray;
+    font-size: 16px;
+
+}
+.header-bottom{
+    height: 300px;
+
+}
+.header-bottom .col-md-4 h4{
+    color: #fff;
+    font-family: 'IM Fell Double Pica SC', serif;
+    margin:30px 0px 0px 30px;
+}
+
+.header-bottom .col-md-4 span{
+    font-size: 27px;
+    margin: 30px 0px 0px 30px;
+    font-family: 'IM Fell Double Pica SC', serif;
+    color: #fff;
+}
+.header-bottom .col-md-4 p{
+    color: gray;
+    margin:10px 0px 0px 60px;
+}
+.header-bottom .menu{
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 25px;
+}
+.header-bottom .menu li{
+    display: inline-block;
+}
+.header-bottom .menu li a{
+    color: #fff;
+    text-decoration-line: none;
+    padding:20px;
+}
+.wrapper{
+     z-index:1; 
+     margin-top: -150px;
+     background-color: #fff;
+}
+.slider{
+    height: 500px;
+    overflow: hidden;
+    margin-top:40px; 
+    position: relative;
+    padding:0px 10px 10px 10px;
+}
+
+.slider img{
+    width: 100%;
+}
+
+.slider .slider-list {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    position: relative;
+}
+
+.slider .slider-list .text {
+    width: 320px;
+    height: 300px;
+    margin-top:30px;
+    background-color:black;
+    opacity: 0.8;
+    position: absolute;
+    right: 60px;
+
+
+  
+}
+.slider .slider-list .text h4{
+    font-style: italic;
+    color: #fff;
+    margin-left: 10px;
+    font-size: 20px;
+}
+.slider .slider-list .text p{
+    color: gray;
+    margin-left: 10px;
+    font-size: 14px;
+    padding :4px;
+}
+.slider .slider-list .text .reading{
+    background-color:#1d2b30;
+    color: #fff;
+    border-radius:5px;
+    float: right;
+    margin-top: 30px;
+    margin-right: 15px;
+    border-width: 1px;
+}
+
+.slick-slider .slick-prev {
+    border-radius: 50%;
+    border: 1px solid #1d2b30;
+    font-size: 0px;
+    background-color: #1d2b30;
+    width: 30px;
+    height: 30px;
+    opacity: 0.3px;
+    position: absolute;
+    top:50%;
+    z-index: 1;
+
+}
+.slick-slider .slick-next {
+    border-radius: 50%;
+    border: 1px solid #1d2b30;
+    font-size: 0px;
+    background-color: #1d2b30;
+    width: 30px;
+    height: 30px;
+    opacity: 0.3px;
+    position: absolute;
+    top:50%;
+    z-index: 1;
+    right: 10px;
+
+}
+
+.slider-bottom{
+    height: 80px;
+    background-color: #1d2c33;
+    border-top-style: solid;
+    border-top-width: 9px;
+    border-top-color: #455c62;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: -10px;
+      
+}
+.slider-bottom ul{
+    display: inline-block;
+
+
+}
+.slider-bottom li{
+    display: inline-block;
+    padding: 70px;
+    margin-top:-55px;
+}
+.slider-bottom li .button1,.button2,.button3{
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    background-color: #101a1c;
+    opacity: 0.8;
+    float: left;
+    border:none;
+    display: inline-block;
+
+}
+.slider-bottom li .glyphicon-arrow-up{
+    transform: rotateZ(45deg);
+    font-size: 20px;
+    padding: 0px;
+    margin:0px;
+
+}
+
+.slider-bottom li span{
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 10px;
+    color: #fff;
+
+
+}
+ h6{
+    font-style: italic;
+    color: #515d63;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #545a5a;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    font-family: 'Alegreya', serif;
+
+}
+.content {
+    background-color: #fff;
+}
+.content .col-md-4  ul{
+    margin-top: 10px;
+}
+.content .col-md-4  ul li a{
+    color: #515d63;
+    text-decoration: none;
+    margin-left: 3px;
+    font-family: 'Itim', cursive;
+    font-size: 16;
+
+}
+.content .col-md-4  ul li a span{
+    margin: 0px;
+    padding: 0px;
+    font-size: 11px;
+    margin-left: 3px;
+}
+.top-content{
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: gray;
+}
+
+.top-content .thumbnail img{
+   witdh:100%;
+}
+.top-content .text-left{
+    color: gray;
+    font-family: 'Itim', cursive;
+    font-size: 16px;
+}
+.top-content .col-md-4 a{
+    color:#000;
+    opacity: 0.9;
+
+}
+.top-content .col-md-4 h5{
+    font-weight: bold;
+    color: #000;
+    padding-top: 10px;
+}
+.top-content .col-md-4 span{
+    color: gray;
+}
+.top-content .col-md-4 h4{
+    font-weight: bold;
+    color: #000;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: gray;
+    font-size: 14px;
+    padding-top: 10px;
+}
+.top-content .col-md-4 h3{
+    font-size: 14px;
+    color: black;
+    opacity: 0.8;
+}
+.top-content .col-md-4 h2{
+    font-size: 14px;
+    color: black;
+    opacity: 0.8;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: gray;
+    padding-top: 10px;
+
+}
+
+.content .col-md-4 .thumbnail{
+    
+}
+
+.bottom-content h6{
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
+.information p{
+    color: gray;
+    font-size: 16px;
+    margin-left: 10px;
+    font-family: 'Alegreya', serif;
+
+}
+.information h6{
+    text-decoration: none;
+    color: gray;
+    font-size: 12px;
+    border:none;
+    margin-left: 10px;
+    margin-top: 20px;
+    font-style: inherit;
+}
+.information h5{
+    text-decoration: none;
+    color: gray;
+    font-size: 12px;
+    border:none;
+    margin-left: 10px;
+   
+}
+
+.bottom-bar{
+    height: 100px;
+    background-color: #ececec;
+    border-radius: 5px;
+    margin:5px 0px 20px 0px;
+}
+.bottom-bar .col-md-4 ul li{
+   
+    float: left;
+}
+.bottom-bar .col-md-4 ul li .fa-twitter{
+    display: inline-block;
+    color:#2fcfff;
+    background-color:#ececec;
+    font-size: 60px;
+    margin-left:70px; 
+
+}
+.bottom-bar .col-md-4 ul li h5{
+    display: inline-block;
+    color: #2fcfff;
+    font-size:16px;
+     }
+.bottom-bar .col-md-8 .text-left{
+    display: inline-block;
+    color: #a1a1a1;
+    font-weight: bold;
+    font-size: 16px;
+    border-left-style: solid;
+    border-left-width: 3px;
+    border-left-color: #fff;
+    padding: 10px;
+}
+.bottom-bar .col-md-8 .text-left span{
+     color: #2fcfff;
+     background-color: #ececec;
+     font-size: 16px;
+     font-style: italic;
+     display: inline-block;
+}
+
+
+
+
+footer{
+    background-color: #213239;
+    border-top-right-radius: 7px;
+    border-top-left-radius: 7px;
+    margin-top: 0px;
+    padding: 10px;
+
+}
+footer h6{
+    color: #67787f;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #67787f;
+    font-style:inherit;
+    padding-bottom: 10px;
+    margin-left: 10px;
+    font-size: 18px;
+}
+footer .col-md-4 h6{
+    color: #ecf5f5;
+    font-weight: bold;
+    border:none;
+    opacity: 0.8;
+    margin-left: 0px;
+}
+footer .col-md-4 h6 span{
+    font-size: 13px;
+    color: #ecf5f5;
+}
+footer .col-md-4 ul{
+   
+}
+footer .col-md-4 ul li{
+    margin-bottom: 3px;
+}
+footer .col-md-4 ul li a{
+    color: gray;
+    font-size: 11px;
+}
+.footer-item {
+    background-color: #111c20;
+    height: 60px;
+    margin:0px;
+    width: 100%;
+}
+.footer-item .col-md-6 span{
+    color:#727b80;
+    margin-left: 22px;
+    margin-top: 10px;
+}
+.footer-item .col-md-6 p{
+    float: right;
+    margin-right: 22px;
+    margin-top: 10px;
+}
